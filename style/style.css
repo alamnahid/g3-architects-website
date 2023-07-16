@@ -139,6 +139,103 @@ margin-bottom: 2rem;
 
 /* feature section style */
 
+.feature-section{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.little-box{
+    width: 0.3125rem;
+height: 6.625rem;
+background: #FF900E;
+}
+.heading-design{
+    display: flex;
+}
+.feature-title{
+    margin-left: 1.3rem;
+    width: 29.25rem;
+    color: #131313;
+font-family: Work Sans;
+font-size: 2.8125rem;
+font-weight: 700;
+}
+.feature-description{
+    margin-top: 1.5rem;
+    width: 40.625rem;
+    color: #727272;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+}
+
+.feature-card{
+    margin-top: 1.5rem;
+    width: 40.625rem;
+height: 10.6875rem;
+border-radius: 0.5rem;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.feature-card:hover{
+     transform: scale(1.05);
+}
+.feature-card-title{
+    margin-left: 1.5rem;
+    color: #131313;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+}
+.feature-card-description{
+    color: #727272;
+    margin-top: 0.65rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+}
+.ten-year-badge{
+    width: 21.375rem;
+    height: 12.5rem;
+    border-radius: 0.5rem;
+    background: #FF900E;
+    position: relative;
+    bottom: 100px;
+    left: -120px;
+}
+.ten-year-badge:hover{
+    background-color: #131313;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.ten-year{
+    width: 16.125rem;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 4.0625rem;
+font-weight: 700;
+line-height: 4.375rem; /* 107.692% */
+}
+.experience{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 1.5625rem;
+font-weight: 500;
+line-height: 2.5rem;
+text-align: center;
+}
+.year{
+    padding: 2.80rem 2.63rem;
+}
 
 
 
@@ -176,6 +273,9 @@ border: 1px solid #FF900E;
 width: 15.11444rem;
 height: 15.11444rem;
 }
+.card:hover{
+    transform: scale(1.05);
+}
 .card > img{
     margin-top: 3rem;
 }
@@ -194,7 +294,50 @@ font-size: 1.25rem;
 font-weight: 600;
 }
 
+/* sponsor section style  */
+.sponsor-title{
+    color:  #131313;
+    text-align: center;
+font-family: Work Sans;
+font-size: 2.8125rem;
+font-weight: 700;
+margin-top: 150px;
+}
+.sponsor-description{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    width: 33.875rem;
+    color:  #727272;
+text-align: center;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+}
+.logo-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.12rem;
+}
 
+/* footer section style  */
+
+.footer{
+    border-radius: 0.5rem;
+background: #FFF4E7;
+margin-top: 150px;
+margin-bottom: 50px;
+}
+.footer-text{
+    color:  #424242;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 400;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+}
 
 
 
@@ -289,11 +432,14 @@ font-weight: 600;
     }
     .fact-description{
         margin-bottom: 3rem;
-        width: 90%;
+        width: 85%;
     }
 
     .fact-box-container{
     display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     }
@@ -310,6 +456,27 @@ font-weight: 600;
     .card-description{
     font-size: 1rem;
     }
+    /* sposor */
+
+    .sponsor-title{
+    font-size: 2rem;
+    margin-top: 70px;
+    }
+    .sponsor-description{
+        width: 90%;
+    }
+    .logo-img-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+        margin-top: 3.12rem;
+    }
+    .logo-img-container > img{
+        width: 70%;
+        height: 70%;
+    }
+    
 
 
 
